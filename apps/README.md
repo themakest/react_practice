@@ -14,7 +14,7 @@ todoリストを作って基礎理解
    - key: どの要素が追加、変更、削除されたのかReactが識別するのに役立つ。配列内の項目に識別の安定性を持たせるために、各項目にkeyを与えるべきである。
 - jsxの記述の基本
 
-*参考サイト*  
+### 参考サイト
 [Reactのstateとpropsの違いが知りたい！](https://kenjimorita.jp/imadakarawakattareact/)  
 [Reactの基本メモ](https://qiita.com/kerochelo/items/31fd5a93c23ea4deee18)  
 [JSX の書き方](http://www.tohoho-web.com/ex/react.html#jsx)  
