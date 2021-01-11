@@ -21,7 +21,7 @@
   - アプリ内にある全てのStateを管理するための保管庫
   - Storeは受け取ったActionを読み取って、Stateを変更
 
-*参考サイト*
+*参考サイト*  
 [Reduxを分かりやすく解説してみた](https://future-architect.github.io/articles/20200429/)  
 [Reduxの考え方をシンプルに理解しよう](https://www.yoheim.net/blog.php?q=20191201)  
 [ReduxのState/Store/Action/Reducer設定まとめ](https://nekorokkekun.hatenablog.com/entry/2019/09/17/181246)  
@@ -31,7 +31,7 @@
 [Reduxの基本・Stores](https://qiita.com/kitagawamac/items/377787c24efac64f2495)  
 [Reduxのconnectについて](https://qiita.com/macotok/items/ddbebfbb7dd3d834d86e)  
 
-*寄り道*
+*寄り道*  
 [ReactのFragment](https://qiita.com/kaba/items/b681ffe3412a9af32f92)  
 
 ## 状態管理の選択肢
