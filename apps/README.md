@@ -17,5 +17,5 @@
 - 動作も少し早くなると言われている
 
 ### 参考サイト
-[今更だけど「Function Component」と「Class Component」の違いをざっくり。](https://qiita.com/Kouichi_Itagaki/items/c8e05f084fe88a086100)
+[今更だけど「Function Component」と「Class Component」の違いをざっくり。](https://qiita.com/Kouichi_Itagaki/items/c8e05f084fe88a086100)  
 [React hooksを基礎から理解する (useState編)](https://qiita.com/seira/items/f063e262b1d57d7e78b4#%E9%96%A2%E6%95%B0%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88)
