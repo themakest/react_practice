@@ -18,12 +18,13 @@ https://qiita.com/rspmharada7645/items/6aad2cba81bbc6c84797
   - Reducerは、Actionを受けてStateを変更するためのメソッド
 - Stores
   - ReduxではStoreは必ず一つ
-  - Stateを保持する
+  - アプリ内にある全てのStateを管理するための保管庫
   - Storeは受け取ったActionを読み取って、Stateを変更
 
 *参考サイト*
 >https://future-architect.github.io/articles/20200429/  
->https://www.yoheim.net/blog.php?q=20191201
+>https://www.yoheim.net/blog.php?q=20191201  
+>https://nekorokkekun.hatenablog.com/entry/2019/09/17/181246#Reducer  
 >https://www.wakuwakubank.com/posts/703-react-redux/  
 >https://qiita.com/kitagawamac/items/8f8d047e5cbd87399ccb  
 >https://qiita.com/kitagawamac/items/7fdce94912d6d9c801f8  
