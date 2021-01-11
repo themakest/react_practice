@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Counter from './components/Counter';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
+import reducer from './reducers';
+
+// アプリ内唯一のstoreを定義。
+// またreducerを引数に入れることで
+// 全てのアプリケーションのStateがStoreに格納される。
+// reducerのcount.js内にあるinitialState = { value: 0 }が渡される。
+const store = createStore(reducer);
+
+// Providerタグで囲い、store属性に定義したstoreを格納することで、
+// 全てのコンポーネントからStore内に格納されたStateを参照できるようになる
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Provider store={store}>
+        <Counter />
+    </Provider>, 
+    document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
