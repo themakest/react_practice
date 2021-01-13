@@ -1,34 +1,23 @@
 import { ADD_SOUR, DEL_SOUR } from '../actions';
 
-
-
-const sour = (state, action) => {
-  switch (action.type) {
-    case ADD_SOUR:
-      return {
-        id      : action.id,
-        lemon   : action.lemon,
-        taste   : action.taste,
-        alc     : action.alc,
-        comment : action.comment,
-      }
-    default:
-      return state
-  }
-}
-
-const addSour = (state = [], action) => {
+const sourMemo = (state = [], action) => {
   switch (action.type) {
     case ADD_SOUR:
       return [
         ...state,
-        sour(undefined, action)
+        {
+          id      : action.id,
+          lemon   : action.lemon,
+          taste   : action.taste,
+          alc     : action.alc,
+          comment : action.comment,
+        }
       ]
     case DEL_SOUR:
-      return  state.filter((item) => item.id !== action.id);
+      return state.filter( item => item.id !== action.id );
     default:
       return state
   }
 }
 
-export default addSour
+export default sourMemo;

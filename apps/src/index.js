@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import addSour from './reducers';
+import sourMemo from './reducers';
 
 import App from './components/App';
 
-const store = createStore(addSour);
+const store = createStore(sourMemo);
 
 ReactDOM.render(
   <Provider store={store}>

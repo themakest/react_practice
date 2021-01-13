@@ -19,8 +19,12 @@ let AddSour = ({ dispatch }) => {
 
       <div className="range-box">
         甘さ：<input
-        id="taste" type="range"
-        min="0" max="5" step="1"
+        id="taste"
+        type="range"
+        defaultValue="0"
+        min="0"
+        max="5"
+        step="1"
         ref={(node) => {
           countTaste = node
         }} />
@@ -28,13 +32,16 @@ let AddSour = ({ dispatch }) => {
 
       <div className="range-box">
         Alc：<input
-        id="alc" type="range"
-        min="0" max="10" step="1"
+        id="alc"
+        type="range"
+        defaultValue="0"
+        min="0"
+        max="10"
+        step="1"
         ref={(node) => {
           countAlc = node
         }} />
       </div>
-
 
       <div className="input-box">
         コメント：

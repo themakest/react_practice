@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { delSour } from '../actions'
 
 let Sour = ({ dispatch,id,lemon,taste,alc,comment }) => (
-  <div className="list-box">
+  <div className="list-box" id={id}>
     <div className="name">名前：{lemon}</div>
     <div className="taste">甘さ：{taste}</div>
     <div className="alc">Alc：{alc} %</div>

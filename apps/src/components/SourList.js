@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Sour from './Sour';
 
-const SourList = ({ addSour }) => (
+const SourList = ({ sourMemo }) => (
   <div className="list">
-    {addSour.map((item) =>
+    {sourMemo.map((item) =>
       <Sour
         key={item.id}
         id={item.id}
@@ -15,7 +15,7 @@ const SourList = ({ addSour }) => (
 )
 
 SourList.propTypes = {
-  addSour: PropTypes.arrayOf(PropTypes.shape({
+  sourMemo: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.number.isRequired,
     lemon: PropTypes.string.isRequired,
     taste: PropTypes.string.isRequired,

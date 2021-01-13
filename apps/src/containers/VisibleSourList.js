@@ -4,13 +4,8 @@ import SourList from '../components/SourList';
 
 //State情報をPropsとして扱うことができるようにする
 const mapStateToProps = (state) => {
-  return {
-    addSour: state.addSour,
-    delSour: state.delSour
-  }
+  return { sourMemo: state.sourMemo }
 }
 
-const VisibleSourList = connect(
-  mapStateToProps
-)(SourList)
+const VisibleSourList = connect(mapStateToProps)(SourList)
 export default VisibleSourList

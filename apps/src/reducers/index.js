@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import addSour from './reducer';
+import sourMemo from './reducer';
 
 
 //combineReducers: ルートとなるReducerを作成できる汎用関数
-export default combineReducers({ addSour });
+export default combineReducers({ sourMemo });
