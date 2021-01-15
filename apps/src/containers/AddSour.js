@@ -1,12 +1,13 @@
-import React from 'react'
-import { connect } from 'react-redux'
-import { addSour } from '../actions'
+import React from 'react';
+import { connect } from 'react-redux';
+import { addSour } from '../actions';
+import  sassTest from '../test.module.scss';
 
 let AddSour = ({ dispatch }) => {
   let nameSour,countTaste,countAlc,comment;
 
   return (
-    <div className="input-area">
+    <div className={sassTest.text}>
       <div className="input-box">
         レモンサワーの商品名：
         <input

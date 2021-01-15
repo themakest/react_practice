@@ -1,0 +1,6 @@
+.text {
+  color: yellow;
+  &:hover {
+      background: rgba(255,255,255,0.3);
+  }
+}
